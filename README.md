@@ -2,7 +2,7 @@
 
 ## Gameplay
 <div align="center">
-	<video src="Docs/gameplay.mp4" controls width="640"></video>
+	<video src="https://xurothon.github.io/BossFighter/Docs/gameplay.mp4" controls width="640"></video>
 </div>
 
 ### Architecture & Design Patterns
