@@ -1,10 +1,7 @@
 # BossFighter
 
 ## Gameplay
-<div align="center">
-	https://github.com/Xurothon/BossFighter/blob/main/Docs/gameplay.mp4
-	<video src="Docs/gameplay.gif" controls width="640"></video>
-</div>
+<img width="320" height="240" alt="gameplay" src="https://github.com/user-attachments/assets/85cbc844-1298-4345-9cfb-7eb781eb723d" />
 
 ### Architecture & Design Patterns
 - **Dependency Injection (DI)** 
