@@ -3,6 +3,7 @@ using Zenject;
 
 public class BossActivationTrigger : MonoBehaviour
 {
+    [SerializeField] private GameObject _door;
     [Inject] private BossController _boss;
 
     private void OnTriggerEnter(Collider other)
@@ -11,6 +12,7 @@ public class BossActivationTrigger : MonoBehaviour
         {
             _boss.OnPlayerEnteredTrigger();
             gameObject.SetActive(false);
+            _door.SetActive(true);
         }
     }
 }
